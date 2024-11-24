@@ -1,0 +1,32 @@
+body {
+    background-image: url('progamer/Gradient.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Changed to cover to prevent distortion */
+}
+
+a:link, a:visited {
+    color: white;
+    background-color: slateblue;
+    border: 3px solid #2c4052;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem; /* Use relative units for better responsiveness */
+    font-family: sans-serif; /* Changed font for better readability */
+    display: inline-block;
+}
+
+a:hover {
+    background-color: dodgerblue;
+}
+
+a:active {
+    color: yellow;  
+}
+
+h1 {
+    font-family: fantasy;
+    color: whitesmoke;
+    text-align: center;
+}
